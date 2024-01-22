@@ -1,0 +1,121 @@
+/* & PSEUDO ELEMENTES SELECTOR: Targets only the part of content. The symbol is :: */
+/* ! first-letter */
+/* ? Targets only the first litter of the content */
+/* ! first-line *
+/* ? Targets only the first line of the content according to the viewport */
+/* ! before  */
+/* ? Addes the content before(start) the elements using content property and styling is applied only for the content that is added */
+/* ! selection */
+/* ? Changes the default selecting color of the content */
+/* ? user-select: none should be used alone to prevent user from selecting the content  */
+/* ? the color and baground-color overrides user-select:none; */
+/* ! marker */
+/* ? styles only the list-type */
+/* ? can be specified with or without li selector */
+
+/* & PSEUDO CLASS SELECTOR==> The Symbol is : */
+/* ? link: change the default blue(not visited) color of anchore tag */
+/* ? visited: changes the default purple(visited) color of anchore tag */
+/* ? hover: changes the styling properties of an element when the cursor is placed on the element */
+/* ? active: changes the default red(active ) color of anchor tag */
+/* ? focus: changes the styling properties when element is focused */
+
+/* & NOTE */
+/* ? The Particular order should be followed when link,visited,hover,active is used for the same elements */
+/* ? The hover is used for the element to transition to different properties when the cursor is placed on teh element */
+/* ? focus override active: Both the active and focus will work when active is declared after focues  */
+/* ? focus just stay on teh element when element is focused.active appears at the click */
+
+body {
+  background-color: aquamarine;
+}
+/* & First -line  */
+p::first-letter {
+  color: blue;
+  background-color: grey;
+  font-size: 50px;
+}
+/* & Firest-line */
+P::first-line {
+  color: darkcyan;
+  background-color: lightblue;
+}
+/* & before */
+P::before {
+  color: chocolate;
+  content: "Good Afternoon 😍";
+}
+/* & after */
+p::after {
+  content: "Thank You ❤";
+  color: blueviolet;
+}
+/* & selection */
+p::selection {
+  color: white;
+  background-color: grey;
+}
+p::selection {
+  user-select: none;
+}
+/* & marker */
+::marker {
+  color: blue;
+}
+ol li::marker {
+  color: bisque;
+}
+ul li::marker {
+  color: yellow;
+}
+#ol1 li::marker {
+  color: darkred;
+}
+section > aside {
+  margin-left: 80px;
+  margin-top: -250px;
+  font-size: 150px;
+  padding: 5px 20px;
+}
+aside {
+  background-color: aliceblue;
+  width: fit-content;
+  height: 215px;
+  border-radius: 150px;
+}
+#Button {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 500px;
+  margin-bottom: 100px;
+  width: fit-content;
+  font-size: 50px;
+}
+#Button button {
+  font-size: 50px;
+  background-color: transparent;
+  border: none;
+}
+#Button a:link {
+  color: red;
+}
+#Button a:visited {
+  color: darkmagenta;
+}
+#Button a:hover {
+  color: chartreuse;
+}
+#Button a:active {
+  color: coral;
+}
+#Button button {
+  background-color: aliceblue;
+  border-radius: 15px;
+  padding: 5px 25px;
+}
+#anker {
+  background-color: aliceblue;
+  border-radius: 15px;
+  padding: 5px 25px;
+}                   

@@ -1,0 +1,32 @@
+* {
+  background-color: aquamarine;
+}
+img {
+  margin-left: 50px;
+  margin-top: 50px;
+  border-radius: 100px;
+
+}
+iframe{
+    border-radius: 2%;
+    margin: 50px 50px;
+    height: 200px;
+    width: 400px;
+}
+section{
+    width: fit-content;
+    margin-left: 200px;
+    margin-top: -430px;
+}
+section input{
+    border-radius: 5px;
+    background-color: rgb(253, 0, 0);
+    color: white;
+    font-weight: 500;
+    padding: 5px 10px;
+    font-size: small;
+    border: none;
+}
+section p{
+    margin-left: px;
+}

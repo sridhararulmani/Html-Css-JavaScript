@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  background-color: aquamarine;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section {
+  border-radius: 5px;
+  background-color: white;
+  height: fit-content;
+  width: 500px;
+}
+section:hover{
+    box-shadow: 20px 15px 50px rgb(149, 149, 149);
+}
+p {
+  color: black;
+  text-transform: capitalize;
+  /* text-align: center; */
+  text-decoration: underline wavy yellow 1px;
+  text-shadow: 1px 1px 2px lightblue;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+  text-indent: 40px;
+  line-height: 20px;
+  text-align: justify;
+  padding: 20px;
+}
+p:hover {
+  text-decoration: none;
+}

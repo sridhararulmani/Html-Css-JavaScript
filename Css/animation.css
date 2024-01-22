@@ -1,0 +1,101 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly/;
+}
+.one {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: box;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-duration: normal;
+  animation-fill-mode: both;
+}
+/* @keyframes box{
+    from{
+        background-color: aqua;
+    }
+    to{
+        background-color: blue;
+    }
+} */
+@keyframes box {
+  0% {
+    background-color: yellow;
+    top: 0px;
+    left: 0px;
+  }
+  25% {
+    background-color: blueviolet;
+    top: 200px;
+    left: 0px;
+  }
+  50% {
+    background-color: bisque;
+    top: 200px;
+    left: 200px;
+  }
+  75% {
+    background-color: green;
+    top: 0px;
+    left: 200px;
+  }
+  100% {
+    background-color: black;
+    top: 0px;
+    left: 0px;
+  }
+}
+.two {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: box2;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-duration: normal;
+  animation-fill-mode: both;
+}
+/* @keyframes box{
+    from{
+        background-color: aqua;
+    }
+    to{
+        background-color: blue;
+    }
+} */
+@keyframes box2 {
+  0% {
+    background-color: blue;
+    top: 0px;
+    right: 0px;
+  }
+  25% {
+    background-color: black;
+    top: 200px;
+    right: 0px;
+  }
+  50% {
+    background-color: yellow;
+    top: 200px;
+    right: 200px;
+  }
+  75% {
+    background-color: blueviolet;
+    top: 0px;
+    right: 200px;
+  }
+  100% {
+    background-color: green;
+    top: 0px;
+    right: 0px;
+  }
+}

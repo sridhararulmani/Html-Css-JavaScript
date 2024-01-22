@@ -1,0 +1,85 @@
+/* & SIMPLE SELECTORS */
+/* & id selector */
+#demo1 {
+  background-color: aquamarine;
+}
+/* & class selector */
+.text {
+  background-color: blanchedalmond;
+}
+.text2 {
+  background-color: beige;
+}
+/* & tagname selector */
+h1 {
+  background-color: cadetblue;
+}
+h2 {
+  text-align: center;
+}
+div {
+  background-color: chocolate;
+}
+p {
+  background-color: blueviolet;
+}
+h2 {
+  background-color: darkseagreen;
+  color: white;
+}
+/* & grouping selectors */
+h1,
+p {
+  background-color: burlywood;
+}
+#demo,
+.text2 {
+  background-color: aqua;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  border: none;
+}
+/* & universel selectors */
+* {
+  background-color: honeydew;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 5px 5px;
+  border-radius: 15px;
+}
+
+/* & Part 2 */
+
+/* & COMBINATION SELECTOR */
+
+/* & DESCENDINT SELECTOR */
+/* ? targets both direction and indirect child of the parent element */
+section {
+  background-color: cornflowerblue;
+}
+/* ? The symbole is space */
+section aside {
+  background-color: hotpink;
+}
+/* & CHILD / DIRECT CHILD SELECTOR ==> */
+/* ? target only direct child of the parent element */
+/* ? The symbole is > */
+section > aside {
+  background-color: cyan;
+}
+/* & GENERAL SIBLINGS SELECTOR */
+/* ? Target all the adjusent siblings */
+/* ? the symbole is ~ */
+/* ? ~ -> name is tilled */
+section ~ p {
+  background-color: aquamarine;
+}
+section ~ div {
+  background-color: azure;
+}
+/* & ADJACENT SIBLING SELECTOR ==> + */
+/* ? Target only the first adjacent sibling */
+/* ? The symbol is + */
+section + p {
+  background-color: beige;
+}

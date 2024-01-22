@@ -1,0 +1,25 @@
+body {
+  background-color: aqua;
+}
+.box {
+  height: 300px;
+  width: 600px;
+  background-color: rgba(255, 255, 255, 0.386);
+  border-radius: 10px;
+  background-image: url(/images/dominos.png), url(/images/amazon.png),
+    url(/images/cococola.png);
+  background-size: 200px 100px, 200px 100px, 200px 100px;
+  background-position: top left, center, bottom right;
+  background-repeat: no-repeat;
+}
+.lenier-gradient {
+  height: 300px;
+  width: 600px;
+  background-image: radial-gradient(circle ,white,black);
+  border-radius: 10px;
+}
+.imageLinearGradient{
+    height: 300px;
+    width: 600px;
+    border: 1px solid black;
+}

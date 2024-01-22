@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aquamarine;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-size: small;
+  font-weight: 520;
+}
+section {
+  height: 500px;
+  width: 700px;
+  display: flex;
+  box-shadow: 5px 3px 10px lightgray;
+  border-radius: 50px;
+}
+section #left_side {
+  height: inherit;
+  width: 250px;
+  border-radius: 25px 0px 0px 25px;
+  background-color: #3e3f5f;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+}
+section #right_side {
+  height: inherit;
+  width: inherit;
+}
+#left_side #content_box {
+  height: inherit;
+  width: inherit;
+  justify-content: space-between;
+}
+#content_box #nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#content_box #nav {
+  height: 80px;
+}
+#content_box .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+  color: black;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  word-spacing: 10px;
+  letter-spacing: 1px;
+}
+#content_box .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav .circle .text {
+  display: flex;
+  align-items: center;
+  justify-content: row;
+}
+hr {
+  margin: 0px 25px;
+  width: 200px;
+}
+table input {
+  height: 30px;
+  width: 200px;
+  border: none;
+  border-radius: 8px;
+}
+input {
+  text-align: center;
+}
+#right_side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  background-color: rgb(255, 255, 255);
+}
+#right_side .PerrtionalDetails {
+  color: white;
+  font-size: 20px;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+#right_side .Para {
+  padding: 10px;
+  text-align: center;
+}
+#right_side .Circle{
+  margin-left: 325px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: lightgreen;
+}

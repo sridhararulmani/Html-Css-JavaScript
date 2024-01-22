@@ -1,0 +1,45 @@
+/* & DISPLAY FLEX PROPERTIY */
+/* ? Align the element is one diresction */
+/* ? when display:flex is declared in the parenr element the parent element is called as flex container and the child element is called as flex item */
+/* ? flex-direction:row/column/roe-reverse/col-reverse */
+/* ? gap==> gives the space between the flex items,When flex-direction row, column-gap is column,row-gap can be used,but gap properties works both and column-gap and row-gap. */
+/* ! NOTE */
+/* ? without difplay flex gap property will not work */
+
+/* & ALIGN-ITEMS AND JUSTIFY-CONTENT */
+/* ? flex-direction:row */
+/* ~ align-items==> Vertically */
+/* ~ justify-content==> horizantally */
+/* ? flex-direction: column */
+/* ~ align-items: horizantally */
+/* ~ justy-content ==> vertically */
+/* ? align-items: start/center/end */
+/* ? justify-content: start/center/end/space-around/space-between/space-around/space-evenly */
+/* ! NOTE */
+/* ? without display:flex propertiy align-items and justify-content will not work */
+/* ? TO CENTER THE ELEMENT */
+/* display:flex;
+align-items center;
+justify-content:center; */
+body {
+  background-color: aquamarine;
+}
+section {
+  height: 500px;
+  width: 500px;
+  border: 1px solid black;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+section article {
+  height: 100px;
+  width: 100px;
+  border: 1px solid skyblue;
+  background-color: lightgreen;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
